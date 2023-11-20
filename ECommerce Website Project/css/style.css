@@ -1,0 +1,118 @@
+body{
+	
+	background-color: fff;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Poppins;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-default{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#showcase h1{
+	font-size: ;
+	margin-bottom: 20px;
+}
+#showcase img{
+	width: 90%;
+	margin-left: 60px;
+}
+#showcase .showcase-rignt{
+}
+
+#testimonial{
+  background:#f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px ;
+}
+
+#testimonial p{
+	font-size: 32px;
+	font-family: 'Josefin Sans';
+	color: #000;
+}
+#info1 .info-right{
+	margin-top: 90px;
+}
+#info1{
+	margin-top: 30px;
+}
+#contact{
+	margin-top: 50px;
+	background: url(../img/motorbg.jpg);
+	padding: 40px;
+	color: fff;
+	border-top: #333 7px solid;
+	border-bottom: #333 7px solid;
+}
+footer{
+	padding: 30px;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+	.container1{
+  position: fixed;
+	}
+
+	 .ic {
+        position: fixed;
+        top: 150px;
+        left: 1450px;
+    }
+	
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
